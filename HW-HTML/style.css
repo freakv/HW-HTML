@@ -2,19 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Montserrat&display=swap');
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     height: 200vh;
     width: 90vw;
+    font-family: "Montserrat", sans-serif;
 }
 
-header{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
     align-items: center;
+}
+.logo{
+    display:flex;
+    align-
 }
 
 li, a, button {
@@ -29,24 +36,24 @@ li, a, button {
     cursor: pointer;
 }
 
-.nav_links {
+.menu {
     list-style: none;
 }
 
-.nav_links li {
+.menu li {
     display: inline-block;
     padding: 0px 0.3rem;
 }
 
-.nav_links li a {
+.menu li a, a:hover{
     transition: all 0.3s ease 0s;
-}
 
-.nav_links li a:hover {
+}
+.menu a:hover {
     color: #8dd5ec;
 }
 
-#paw{
+.logo img{
     height: 1.5rem;
     width: 1.5rem;
 }
@@ -64,8 +71,6 @@ button {
 
 .cta button:hover {
     transition: all 0.3s ease 0s;
-}
-
-.cta button:hover {
     color: #8dd5ec;
 }
+
