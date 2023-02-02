@@ -143,12 +143,25 @@ button {
 }
 .content-2 p{
     padding: 0.5rem;
-    
 }
+
+.check {
+    display:flex;
+    font-size: 1 rem;
+    align-content: center;
+    margin-left: 2rem;
+
+}    
+
+.list{
+    display:flex;
+    flex-direction:column;
+}
+    
 #second-image {
     height:20rem;
 }
 
-#checkmark {
-    color:#8dd5ec;
+#check {
+    height: 2rem;
 }
