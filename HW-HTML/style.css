@@ -126,7 +126,6 @@ button {
 .container-2 {
     display: flex;
     justify-content:space-around;
-    position: absolute;  
     padding: 2rem;
     align-items:flex-start
      
@@ -164,4 +163,31 @@ button {
 
 #check {
     height: 2rem;
+}
+
+.container-3 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:3rem;
+}
+.groomers {
+    display:flex;
+    justify-content: column;
+    
+}
+
+.groomers img {
+    height:15rem;
+    width:auto;
+    padding: 2rem;
+}
+.groomers p{
+    align-items: center;
+}
+
+.naslov_3{
+    font-size: 2rem;
+    font-weight: 700;
 }
